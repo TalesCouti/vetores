@@ -34,15 +34,15 @@ export const styles = StyleSheet.create({
     marginTop: 10,
   },
   svgContainer: {
-    backgroundColor: '#d3d3d3',  // Caixa cinza
-    justifyContent: 'center',     // Centraliza verticalmente
-    alignItems: 'center',         // Centraliza horizontalmente
-    padding: 20,                  // Espaçamento interno
-    borderRadius: 10,             // Bordas arredondadas
-    marginTop: 20,                // Espaço acima da caixa
-    flexDirection: 'row',         // Garantir que o conteúdo seja alinhado horizontalmente
-    width: '100%',                // Ocupa a largura total
-    height: 250,                  // Tamanho fixo para a caixa
+    backgroundColor: '#d3d3d3',  
+    justifyContent: 'center',     
+    alignItems: 'center',         
+    padding: 20,                  
+    borderRadius: 10,             
+    marginTop: 20,                
+    flexDirection: 'row',          
+    width: '100%',                
+    height: 250,                  
   },
   svg: {
     width: 200,
