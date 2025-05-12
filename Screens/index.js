@@ -85,7 +85,7 @@ export default function App() {
   };
 
   const formatarAngulo = (value) => {
-    return value ? `${value} °` : '';  // Adiciona " °" ao valor de ângulo
+    return value ? `${value} °` : '';  // Adiciona " °" ângulo
   };
 
   return (
@@ -98,7 +98,7 @@ export default function App() {
           placeholderTextColor="#ccc"
           keyboardType="numbers-and-punctuation"
           value={formatarForca(forca1)}  // Exibe o valor com "N" no input
-          onChangeText={(text) => setForca1(numero(text))}  // Atualiza o valor sem o sufixo
+          onChangeText={(text) => setForca1(numero(text))} 
         />
       </View>
       <View style={styles.inputcontainer}>
@@ -108,7 +108,7 @@ export default function App() {
           placeholderTextColor="#ccc"
           keyboardType="numbers-and-punctuation"
           value={formatarForca(forca2)}  // Exibe o valor com "N" no input
-          onChangeText={(text) => setForca2(numero(text))}  // Atualiza o valor sem o sufixo
+          onChangeText={(text) => setForca2(numero(text))}  
         />
       </View>
       <View style={styles.inputcontainer}>
